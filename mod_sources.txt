@@ -359,5 +359,5 @@ origin	https://notabug.org/TenPlus1/mobs_monster (fetch)
 Mod: mobs_redo/mobs_monster
 
 origin	https://notabug.org/TenPlus1/mobs_redo (fetch)
-* master 980a47b [origin/master] fix : to .
+* master d3f5ead [origin/master] add new flight check function by taikedz
 Mod: mobs_redo/mobs_redo
