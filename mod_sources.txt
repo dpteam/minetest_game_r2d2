@@ -41,7 +41,7 @@ origin	https://github.com/minetest-mods/intllib (fetch)
 Mod: libs/intllib
 
 origin	https://github.com/minetest-mods/mtg_i18n (fetch)
-* master 5ab9369 [origin/master] Translated using Weblate (Esperanto)
+* master e7d2927 [origin/master] Added translation using Weblate (Chinese (Traditional))
 Mod: libs/mtg_i18n
 
 origin	https://github.com/bell07/minetest-whynot_compat (fetch)
@@ -118,7 +118,7 @@ origin	https://gitlab.com/zombiebot/weather_pack (fetch)
 Mod: ambience/weather_pack
 
 origin	https://github.com/stujones11/minetest-3d_armor (fetch)
-* master 4c032e8 [origin/master] Add Portuguese Translations
+* master 7e2d942 [origin/master] fix formatting
 Mod: 3d_armor/3d_armor
 Mod: 3d_armor/3d_armor_stand
 Mod: 3d_armor/shields
