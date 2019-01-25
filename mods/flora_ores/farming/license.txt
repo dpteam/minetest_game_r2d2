@@ -133,3 +133,9 @@ Created by ademant (CC-BY-3.0)
   farming_rye*.png
   farming_oat*.png
   farming_rice*.png
+
+Created by PilzAdam and edited by SpaghettiToastBook (CC0):
+  farming_bread_multigrain.png
+
+Created by VanessaE and edited by SpaghettiToastBook (CC0):
+  farming_flour_multigrain.png
