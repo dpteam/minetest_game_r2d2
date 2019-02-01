@@ -53,7 +53,7 @@ origin	https://github.com/Chemguy99/armor_addon (fetch)
 Mod: player/armor_addon
 
 origin	https://github.com/minetest-mods/awards (fetch)
-* master fb1670a [origin/master] Fix typo in documentation for craft trigger
+* master 1ffa8f1 [origin/master] Add missing german translations
 Mod: player/awards
 
 origin	https://github.com/minetest-mods/character_creator (fetch)
@@ -125,7 +125,7 @@ Mod: 3d_armor/shields
 Mod: 3d_armor/wieldview
 
 origin	https://notabug.org/TenPlus1/farming (fetch)
-* master 0d3faf5 [origin/master] added multigrain flour and bread
+* master 99a729e [origin/master] fix scythe harvest of beanpoles and grapes
 Mod: flora_ores/farming
 
 origin	https://github.com/minetest-technic/mese_crystals (fetch)
