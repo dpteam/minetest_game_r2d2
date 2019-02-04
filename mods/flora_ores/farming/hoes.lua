@@ -333,6 +333,12 @@ minetest.register_craftitem("farming:hoe_bomb", {
 
 -- Mithril Scythe (special item)
 
+farming.scythe_not_drops = {"farming:trellis", "farming:beanpole"}
+
+farming.add_to_scythe_not_drops = function(item)
+	table.insert(farming.scythe_not_drops, item)
+end
+
 minetest.register_tool("farming:scythe_mithril", {
 	description = S("Mithril Scythe (Right-click crop to harvest and replant)"),
 	inventory_image = "farming_scythe_mithril.png",
@@ -402,8 +408,15 @@ minetest.register_tool("farming:scythe_mithril", {
 		-- add dropped items
 		for _, dropped_item in pairs(drops) do
 
-			if dropped_item ~= "farming:trellis"
-			and dropped_item ~= "farming:beanpole" then
+			-- dont drop items on this list
+			for _, not_item in pairs(farming.scythe_not_drops) do
+
+				if dropped_item == not_item then
+					dropped_item = nil
+				end
+			end
+
+			if dropped_item then
 
 				local obj = minetest.add_item(pos, dropped_item)
 

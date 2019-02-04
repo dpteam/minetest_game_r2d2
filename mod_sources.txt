@@ -125,7 +125,7 @@ Mod: 3d_armor/shields
 Mod: 3d_armor/wieldview
 
 origin	https://notabug.org/TenPlus1/farming (fetch)
-* master 99a729e [origin/master] fix scythe harvest of beanpoles and grapes
+* master feab0cc [origin/master] add farming.add_to_scythe_not_drops(item) function for expansion
 Mod: flora_ores/farming
 
 origin	https://github.com/minetest-technic/mese_crystals (fetch)
