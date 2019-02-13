@@ -125,7 +125,7 @@ Mod: 3d_armor/shields
 Mod: 3d_armor/wieldview
 
 origin	https://notabug.org/TenPlus1/farming (fetch)
-* master feab0cc [origin/master] add farming.add_to_scythe_not_drops(item) function for expansion
+* master a7694d2 [origin/master] fix bug in scythe callbacks, thanks BuckarooBanzay
 Mod: flora_ores/farming
 
 origin	https://github.com/minetest-technic/mese_crystals (fetch)
@@ -274,7 +274,7 @@ origin	https://github.com/minetest-mods/ts_furniture (fetch)
 Mod: decor/ts_furniture
 
 origin	https://gitlab.com/VanessaE/unifieddyes (fetch)
-* master         5039a8c [origin/master] Merge branch 'patch-1' into 'master'
+* master         f59c8af [origin/master] Merge branch 'master' into 'master'
 Mod: decor/unifieddyes
 
 bell07	https://gitlab.com/bell07/homedecor_modpack (fetch)
@@ -355,7 +355,7 @@ Mod: mesecons/mesecons_walllever
 Mod: mesecons/mesecons_wires
 
 origin	https://notabug.org/TenPlus1/mobs_monster (fetch)
-* master eeb6a8e [origin/master] added mobs:force_capture() example to sand monster
+* master 86e5f4e [origin/master] tweaked tool damage for sand, stone and tree monsters
 Mod: mobs_redo/mobs_monster
 
 origin	https://notabug.org/TenPlus1/mobs_redo (fetch)
