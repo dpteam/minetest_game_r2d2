@@ -45,7 +45,7 @@ origin	https://github.com/minetest-mods/mtg_i18n (fetch)
 Mod: libs/mtg_i18n
 
 origin	https://github.com/bell07/minetest-whynot_compat (fetch)
-* master e5bb3d9 [origin/master] fix endless_apples replaced by minetest_game version
+* master 8cff1c0 [origin/master] remove demo spite skin from enhanced player_api
 Mod: libs/whynot_compat
 
 origin	https://github.com/Chemguy99/armor_addon (fetch)
@@ -90,7 +90,7 @@ origin	https://github.com/minetest-mods/skinsdb (fetch)
 Mod: player/skinsdb
 
 origin	https://github.com/bell07/minetest-smart_inventory (fetch)
-* master        9f24dbf [origin/master] player page: update clothing integration
+* master        4080daa [origin/master] creative: resize the group1 on group2+3 hide
 Mod: player/smart_inventory
 
 origin	https://github.com/GunshipPenguin/sprint (fetch)
@@ -355,7 +355,7 @@ Mod: mesecons/mesecons_walllever
 Mod: mesecons/mesecons_wires
 
 origin	https://notabug.org/TenPlus1/mobs_monster (fetch)
-* master 86e5f4e [origin/master] tweaked tool damage for sand, stone and tree monsters
+* master 6cf5b95 [origin/master] lava pick heals lava flan when hit, increased water damage
 Mod: mobs_redo/mobs_monster
 
 origin	https://notabug.org/TenPlus1/mobs_redo (fetch)

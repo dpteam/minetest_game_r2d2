@@ -95,6 +95,7 @@ local function creative_callback(state)
 		-- toggle show/hide elements
 		if new_ui == 'list_small' then
 			self.ui_toggle = new_ui
+			self.state:get("groups_sel1"):setSize(5.6, 3)
 			self.state:get("groups_sel2"):setVisible(true)
 			self.state:get("groups_sel3"):setVisible(true)
 			self.state:get("buttons_grid"):reset(9.55, 3.75, 9.0 , 6.5)
@@ -103,6 +104,7 @@ local function creative_callback(state)
 			self.state:get("btn_tog"):setId(1)
 		elseif new_ui == 'list_big' then
 			self.ui_toggle = new_ui
+			self.state:get("groups_sel1"):setSize(7.8, 3)
 			self.state:get("groups_sel2"):setVisible(false)
 			self.state:get("groups_sel3"):setVisible(false)
 			self.state:get("buttons_grid"):reset(9.55, 0.25, 9.0 , 10)
@@ -155,7 +157,7 @@ local function creative_callback(state)
 	end)
 
 	-- functions
-	local searchfield = state:field(1.3, 4.1, 4.8, 0.5, "search")
+	local searchfield = state:field(1.3, 4.1, 4.2, 0.5, "search")
 	searchfield:setCloseOnEnter(false)
 	searchfield:onKeyEnter(function(self, state, player)
 		local search_string = self:getText()
@@ -165,6 +167,13 @@ local function creative_callback(state)
 		state.param.creative_grouped_shape_items = filtered_list
 		update_group_selection(state, 0)
 	end)
+
+	local search_button = state:button(5.0, 3.8, 1, 0.5, "search_btn", "Go")
+	search_button:setTooltip("Perform search action")
+	search_button:onClick(function(self, state, player)
+		state:get("search"):submit_key_enter("", player)
+	end)
+
 
 	-- action mode toggle
 	state:toggle(6, 3.8,1.5,0.5, "btn_tog_mode", {"Give 1", "Give stack"})
