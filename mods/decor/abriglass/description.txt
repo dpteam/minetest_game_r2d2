@@ -1,1 +1,0 @@
-Adds coloured glass, patterned stained glass, glass lights and one way windows.

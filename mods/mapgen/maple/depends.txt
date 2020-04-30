@@ -1,6 +1,0 @@
-default
-stairs
-moreblocks?
-drawers?
-bonemeal?
-pkarcs?

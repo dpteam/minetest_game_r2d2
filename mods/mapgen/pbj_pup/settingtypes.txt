@@ -1,2 +1,0 @@
-#    If enabled generates PB&J Pup and Nyan Cats in world
-pbj_pup_generate (Generate PB&J Pup) bool true

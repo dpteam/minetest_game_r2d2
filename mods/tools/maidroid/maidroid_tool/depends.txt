@@ -1,6 +1,0 @@
-bucket
-default
-dye
-wool
-maidroid
-maidroid_core

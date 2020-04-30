@@ -1,6 +1,0 @@
-default
-tnt
-doors?
-xpanes?
-vessels?
-moreores?

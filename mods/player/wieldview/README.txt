@@ -1,8 +1,6 @@
 [mod] visible wielded items [wieldview]
 =======================================
 
-Depends on: multiskin_model
-
 Makes hand wielded items visible to other players.
 
 default settings: [minetest.conf]
