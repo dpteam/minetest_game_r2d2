@@ -1,0 +1,2 @@
+Wynnpack 16px
+Wynnpack_Port_115_2 16px [43%] (Converted from Wynnpack_Port_115_2 with Minetest Texture and Resource Pack Converter)
